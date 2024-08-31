@@ -1,0 +1,22 @@
+{
+  "name": "jesttestpractice",
+  "version": "1.0.0",
+  "description": "Testing with jest for TOP",
+  "main": "methods.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Keago99/jestTestPractice.git"
+  },
+  "author": "Keagan.T",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Keago99/jestTestPractice/issues"
+  },
+  "homepage": "https://github.com/Keago99/jestTestPractice#readme",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}

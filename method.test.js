@@ -1,6 +1,8 @@
-const capitalize = require('./capitalize');
+const capitalize = require('./methods');
 
-test ('capitalize a string', () => {
-    expect (capitalize("hello").toBe("Hello"));
+
+test("whats all this then", () =>{
+    expect(capitalize("bug")).toBe("Bug")
 });
+
 

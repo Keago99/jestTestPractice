@@ -1,8 +1,11 @@
-const capitalize = require('./methods');
+const functions = require("./methods");
 
+test("Capitalization", () =>{
+    expect(functions.capitalize("rug")).toBe("Rug")
+});
 
-test("whats all this then", () =>{
-    expect(capitalize("bug")).toBe("Bug")
+test ("ReverseString", () =>{
+    expect(functions.reverseString("Hello")).toBe("olleH")
 });
 
 

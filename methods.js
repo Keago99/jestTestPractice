@@ -20,7 +20,7 @@ let Caclulator = {
         finalNum = firstNum + secondNum;
         return finalNum;
     },
-    
+
     division(firstNum, secondNum){
         if (secondNum === 0){
             return "cannot divide by zero"
@@ -29,6 +29,11 @@ let Caclulator = {
             finalNum = firstNum/secondNum;
             return finalNum;
         }
+    },
+
+    multiplication(firstNum, secondNum){
+        finalNum = firstNum * secondNum;
+        return finalNum;
     }
 }
 

@@ -17,4 +17,8 @@ test ("Calc division", () =>{
     expect(functions.Caclulator.division(4,2)).toBe(2)
 });
 
+test ("Calc multiplication", () =>{
+    expect(functions.Caclulator.multiplication(6,3)).toBe(18)
+});
+
 

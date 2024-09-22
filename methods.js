@@ -15,5 +15,22 @@ function reverseString(str) {
     return newString;
 }
 
+let Caclulator = {
+    addition(firstNum, secondNum){
+        finalNum = firstNum + secondNum;
+        return finalNum;
+    },
+    
+    division(firstNum, secondNum){
+        if (secondNum === 0){
+            return "cannot divide by zero"
+        }
+        else{
+            finalNum = firstNum/secondNum;
+            return finalNum;
+        }
+    }
+}
 
-module.exports = {capitalize, reverseString};
+
+module.exports = {capitalize, reverseString, Caclulator};
